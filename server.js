@@ -1,5 +1,5 @@
 const { WebSocketServer } = require("ws");
-const { GameManager } = require("./gameManager");
+const { GameManager } = require("./src/gameManager");
 
 const wss = new WebSocketServer({ port: 8080 });
 const gameManager = new GameManager();
